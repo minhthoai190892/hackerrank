@@ -22,11 +22,11 @@ public class Java_Datatypes {
                         System.out.println("* int");
                     }
                     // check x range from -2^63 to (2^63)-1
-                    if (x>=Math.pow(-2, 63) && x<=Math.pow(2, 63)-1   ) {
+                    if (x >= Math.pow(-2, 63) && x <= Math.pow(2, 63) - 1) {
                         System.out.println("* long");
                     }
                 } catch (Exception e) {
-                    System.out.println(scanner.next()+" can't be fitted anywhere.");
+                    System.out.println(scanner.next() + " can't be fitted anywhere.");
                 }
             }
         }
