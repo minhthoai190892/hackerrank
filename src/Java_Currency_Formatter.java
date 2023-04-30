@@ -11,7 +11,7 @@ public class Java_Currency_Formatter {
         // Write your code here.
         NumberFormat usFormat = NumberFormat.getCurrencyInstance(Locale.US);
 
-        NumberFormat indiaFormat = NumberFormat.getCurrencyInstance(new Locale("en", "in"));
+        NumberFormat indiaFormat = NumberFormat.getCurrencyInstance(Locale.ITALIAN);
         NumberFormat chinaFormat = NumberFormat.getCurrencyInstance(Locale.CHINA);
         NumberFormat franceFormat = NumberFormat.getCurrencyInstance(Locale.FRANCE);
 
