@@ -2,14 +2,13 @@ import java.util.Scanner;
 
 public class Java_Substring_Comparisons {
     public static void main(String[] args) {
-        // https://www.hackerrank.com/challenges/java-string-compare/problem?isFullScreen=true
-    Scanner scanner = new Scanner(System.in);
-    //declare field
-   
-    int k =3;
-    String s = scanner.nextLine();
+        try (// https://www.hackerrank.com/challenges/java-string-compare/problem?isFullScreen=true
+    Scanner scanner = new Scanner(System.in)) {
+        int k =3;
+        String s = scanner.nextLine();
  
    System.out.println(getSmallestAndLargest(s, k));
+    }
     
     
     }
