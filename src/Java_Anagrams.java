@@ -30,7 +30,6 @@ public class Java_Anagrams {
         if (Arrays.equals(aArray, bArray)) {
             return true;
         }else{
-        
             return false;
         }
             
