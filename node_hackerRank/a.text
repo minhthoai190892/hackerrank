@@ -1,0 +1,4 @@
+git checkout -b hackerRank
+git add .
+git commit -m "hackerRank"
+git push -u origin hackerRank
